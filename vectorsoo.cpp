@@ -10,6 +10,12 @@
 #include <vector>
 #include "vectorsoo.h"
 
+using std::cout;
+
+vectorsoo::vectorsoo(){
+    //initialization
+}
+
 int vectorsoo::check(int number) const {
     // returns the index of the element
     // that corresponds to the element holding "number"
@@ -42,4 +48,10 @@ void vectorsoo::removeNumber(int number){
     else
         return;
     container.erase(toRemove);
+}
+
+void vectorsoo::output() {
+    cout << "your numbers: "; // Printing numbers
+    for (size_t i = 0; i < container.size(); ++i)
+        cout << container[i] << " ";
 }

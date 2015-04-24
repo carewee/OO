@@ -29,9 +29,7 @@ int main() {
             myVectorC.removeNumber(number);
         }
         
-        cout << "your numbers: "; // Printing numbers
-        for (size_t i = 0; i < container.size(); ++i) {
-            cout << container[i] << " ";
+        myVectorC.output()
         }
         cout << endl;
         
