@@ -18,13 +18,15 @@ int main() {
     cout << "enter operation [a/r/q] and number:";
     cin >> choice >> number;
     
+    vectorsoo myVectorC;
+    
     while (choice != 0) {
         if (choice == 'a'){ // Adding a number
-            addNumber(container, number);
+            myVectorC.addNumber(number);
         }
         
         else if (choice == 'r'){ // Removing a number
-            removeNumber(container, number);
+            myVectorC.removeNumber(number);
         }
         
         cout << "your numbers: "; // Printing numbers
