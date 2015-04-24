@@ -29,8 +29,7 @@ int main() {
             myVectorC.removeNumber(number);
         }
         
-        myVectorC.output()
-        }
+        myVectorC.output();
         cout << endl;
         
         cout << "enter operation [a/r/q] and number:"; // Getting next input
